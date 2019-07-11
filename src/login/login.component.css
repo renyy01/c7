@@ -1,0 +1,26 @@
+
+.section {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  /*.skip-header{*/
+  /*padding-top: 50px;*/
+  /*}*/
+  .skip-content {
+    position: absolute;
+    padding: 0px 5px 60px 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skip-header {
+    padding-top: 50px;
+  }
+
+  .skip-content {
+    position: absolute;
+    padding: 60px 15px 75px 15px;
+  }
+}
